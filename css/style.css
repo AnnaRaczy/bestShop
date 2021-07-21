@@ -93,3 +93,50 @@ header {
     color: var(--color-black);
     border-color: var(--color-primary);
 }
+
+
+/* End of Header */
+
+
+.opening__section {
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opening__wrapper {
+    margin-top: 130px;
+}
+
+.opening__title {
+    line-height: 57px;
+    font-family: var(--font-raleway);
+    font-size: 49px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.opening_text {
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 38px 0;
+}
+
+.opening_btn {
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    padding: 22px 157px 23px 157px;
+}
+
+.opening__photo {
+    height: auto;
+    width: 100%;
+}
