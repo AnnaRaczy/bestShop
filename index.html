@@ -132,7 +132,7 @@
                     <div class="pricing__section--top ">
                         <h3>Professional</h3>
                         <p class="price__two--color">$25</p>
-                        <p>Limited offer</p>
+                        <p class="pricing__offer">Limited offer</p>
                     </div>    
                     <nav class="pricing__two--list">
                         <ul class="pricing__elements">
@@ -150,7 +150,7 @@
                     <div class="pricing__section--top pricing__third--height">
                         <h3>Premium</h3>
                         <p class="price__three--color">$60</p>
-                        <p>Limited offer</p>
+                        <p class="pricing__offer">Limited offer</p>
                     </div>     
                     <nav class="pricing__three--list">
                         <ul class="pricing__elements">
@@ -173,20 +173,22 @@
         <div class="container contact__section">
             <div class="contact__section__container">
                 <h2>Any questions?</h2>
-                <p>Leave your email address or call us!</p>
-                <div>
-                    <div>info@bestshop.xyz</div>
-                    <div>123 456 789</div>
+                Leave your email address or call us!
+                <div class="contact__section__data">
+                    <a class="contact__element">
+                        <img src="images/Mail Icon.svg" alt="mail">
+                        info@bestshop.xyz</a>
+                    <a class="contact__element">
+                        <img src="images/Phone Icon.svg" alt="mail">
+                        123 456 789</a>
                 </div>
             </div>
             <form class="contact__section__form">
                 <div class="contact__text__box">
-                    <label>
-                        <input type="text">
-                    </label>
-                    <label>
-                        <input type="email">
-                    </label>
+                    <label class="contact__label" for="mail">Name</label>
+                    <input  type="text" id="mail">
+                    <label class="contact__label" for="phone">Email</label>
+                    <input type="email" id="phone">
                 </div>
                 <label class="contact__checkbox">
                     <input type="checkbox">
