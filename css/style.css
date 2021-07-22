@@ -488,3 +488,249 @@ header {
     width: 296px;
     height: 207px;
 } 
+
+
+
+/* End of Benefits section  */
+
+
+.section__pricing__wrapper {
+    height: 616px;
+    width: 1266px;
+    margin: 100px auto;
+}
+
+.section__pricing__wrapper .pricing__section {
+    width: 1266px;
+    text-align: center;
+}
+
+.pricing__section h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 300px;
+}
+
+
+
+.pricing__section--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1266px;
+    height: 500px;
+}
+
+.pricing__border--red {
+    border: 1px solid var(--color-redish);
+}
+
+
+
+.pricing__border--blue {
+    border: 1px solid var(--color-primary);
+}
+
+.pricing__border--green {
+    border: 1px solid var(--color-green);
+}
+
+
+.price__one--color {
+    color: var(--color-redish);
+}
+
+.price__two--color {
+    color: var(--color-primary);
+}
+
+.price__three--color {
+    color: var(--color-green);
+}
+
+
+.pricing__section--outer {
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.pricing__section--middle {
+    width: 405px;
+    height: 500px;
+    margin: 0 59px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing__section--top h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pricing__section--top {
+    margin-top: 34px;
+    margin-bottom: 59px;
+}
+
+.pricing__one--list ul {
+    height: 175px;
+    margin-bottom: 81px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing__two--list ul{
+    height: 198px;
+    margin-top: 0;
+    margin-bottom: 79px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing__three--list ul{
+    height: 175px;
+    margin-top: 0;
+    margin-bottom: 81px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing__third--height {
+    margin-bottom: 40px;
+}
+
+.pricing__section--top h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #13253B;
+}
+
+.pricing__section--top p:nth-child(2) {
+    font-size: 46px;
+    font-weight: 300;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.pricing__section nav li {
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.pricing__elements{
+    text-align: center;
+}
+
+.pricing__element::before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+    border: 1px solid #55DFB4;
+    border-radius: 2px;
+    background-image: url("../images/Checkmark.svg");
+}
+
+.pricing__element--out::before {
+    border: none;
+    background-image: url("../images/Close.svg");
+}
+
+
+.pricing__btn {
+    display: block;
+    padding: 16px 57px;
+    border-radius: 23px;
+    color: white;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.btn__pricing--one {
+    background-color: var(--color-redish);
+    position: relative;
+    bottom: 2.5%;
+}
+
+.btn__pricing--two {
+    background-color: var(--color-primary);
+    position: relative;
+    bottom: 5%;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+
+.btn__pricing--three {
+    background-color: var(--color-green);
+    position: relative;
+    bottom: 5%;
+}
+
+
+/* End of Pricing section */
+
+.contact__section {
+    width: 896px;
+    height: 376px;
+    display: flex;
+    margin: 155px auto;
+    border: 2px solid black;
+}
+
+.contact__section__container {
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+.contact__section__form {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 2px solid black;
+    margin-left: 114px;
+}
+
+.contact__text__box {
+    width: 440px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+.contact__checkbox {
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
