@@ -20,6 +20,8 @@ Open Sans [300, 400, 700] */
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -162,7 +164,7 @@ header {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 101px;
+    margin-bottom: 121px;
 }
 
 .box {
@@ -288,8 +290,9 @@ header {
 
 .benefits__section--one .section--one--text {
     width: 416px;
-    height: 188px;
+    /* height: 188px; otherwise the line is below div*/ 
     margin-left: 35px;
+    margin-top: 38px;
     border: 2px solid black;
 }
 
@@ -358,8 +361,6 @@ header {
 
 
 
-
-
 .benefits__section--two {
     position: relative;
     height: 370px;
@@ -375,10 +376,11 @@ header {
 .benefits__section--two .section--two--text {
     font-family: 'Open Sans', sans-serif;
     width: 416px;
-    height: 230px;
+    /* height: 230px; otherwise the line is below div*/
     margin-right: 20px;
     border: 2px solid black;
 }
+
 
 .section--two--text .benefits__title {
     font-family: 'Raleway', sans-serif;
@@ -679,20 +681,20 @@ header {
 .btn__pricing--one {
     background-color: var(--color-redish);
     position: relative;
-    bottom: 2.5%;
+    bottom: -0.5%;
 }
 
 .btn__pricing--two {
     background-color: var(--color-primary);
     position: relative;
-    bottom: 5%;
+    bottom: -1.5%;
     box-shadow: 5px 10px 14px #07ACE629;
 }
 
 .btn__pricing--three {
     background-color: var(--color-green);
     position: relative;
-    bottom: 5%;
+    bottom: -1.5%;
 }
 
 
@@ -815,8 +817,7 @@ header {
 
 .contact__checkbox input:checked + span {
     background-image: url(../images/Checkmark.svg);
-    background-position: contain;
-    background-size: center;
+    background-position: 6px 6px;
     background-repeat: no-repeat;
 }
 
